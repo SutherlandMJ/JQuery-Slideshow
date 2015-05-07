@@ -133,10 +133,6 @@
             $('.slideshow-caption').hide();
             $($('.slideshow-caption').get(state.cur)).show();
             
-            // Set timer to next state
-            /*$this.data('state').timer = window.setTimeout(function () {
-                methods.fadeOut.apply($this);
-            }, state.delay - state.fadeOutInterval - state.fadeInInterval);*/
             return $this;
         },
         
